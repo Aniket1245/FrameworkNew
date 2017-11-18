@@ -45,7 +45,7 @@ public class BaseTest {
 	@AfterClass
 	public void afterClass()
 	{
-		Reporter.log("After Class", true);
+		Reporter.log("Afterr Class", true);
 	}
 	
 	
