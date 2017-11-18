@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Login.....]]>
+    </line>
+    <line>
+      <![CDATA[Create User....]]>
+    </line>
+    <line>
+      <![CDATA[Logout.....]]>
+    </line>
+    <line>
+      <![CDATA[Login.....]]>
+    </line>
+    <line>
+      <![CDATA[Create Task....]]>
+    </line>
+    <line>
+      <![CDATA[Logout.....]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="31" started-at="2017-10-29T21:17:48Z" finished-at="2017-10-29T21:17:48Z">
+    <groups>
+      <group name="task">
+        <method signature="TestNGGroupForRegionalRegression.createTask()[pri:4, instance:anotations.TestNGGroupForRegionalRegression@feb3fa]" name="createTask" class="anotations.TestNGGroupForRegionalRegression"/>
+      </group> <!-- task -->
+      <group name="smoke">
+        <method signature="TestNGGroupForRegionalRegression.createTask()[pri:4, instance:anotations.TestNGGroupForRegionalRegression@feb3fa]" name="createTask" class="anotations.TestNGGroupForRegionalRegression"/>
+        <method signature="TestNGGroupForRegionalRegression.createUser()[pri:1, instance:anotations.TestNGGroupForRegionalRegression@feb3fa]" name="createUser" class="anotations.TestNGGroupForRegionalRegression"/>
+      </group> <!-- smoke -->
+      <group name="user">
+        <method signature="TestNGGroupForRegionalRegression.createUser()[pri:1, instance:anotations.TestNGGroupForRegionalRegression@feb3fa]" name="createUser" class="anotations.TestNGGroupForRegionalRegression"/>
+      </group> <!-- user -->
+    </groups>
+    <test name="Test" duration-ms="31" started-at="2017-10-29T21:17:48Z" finished-at="2017-10-29T21:17:48Z">
+      <class name="anotations.TestNGGroupForRegionalRegression">
+        <test-method status="PASS" signature="login()[pri:0, instance:anotations.TestNGGroupForRegionalRegression@feb3fa]" name="login" is-config="true" duration-ms="0" started-at="2017-10-30T02:47:48Z" finished-at="2017-10-30T02:47:48Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login.....]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="createUser()[pri:1, instance:anotations.TestNGGroupForRegionalRegression@feb3fa]" name="createUser" duration-ms="0" started-at="2017-10-30T02:47:48Z" finished-at="2017-10-30T02:47:48Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Create User....]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method status="PASS" signature="createTask()[pri:4, instance:anotations.TestNGGroupForRegionalRegression@feb3fa]" name="createTask" duration-ms="0" started-at="2017-10-30T02:47:48Z" finished-at="2017-10-30T02:47:48Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Create Task....]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createTask -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:anotations.TestNGGroupForRegionalRegression@feb3fa]" name="logout" is-config="true" duration-ms="0" started-at="2017-10-30T02:47:48Z" finished-at="2017-10-30T02:47:48Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout.....]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="login()[pri:0, instance:anotations.TestNGGroupForRegionalRegression@feb3fa]" name="login" is-config="true" duration-ms="0" started-at="2017-10-30T02:47:48Z" finished-at="2017-10-30T02:47:48Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login.....]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:anotations.TestNGGroupForRegionalRegression@feb3fa]" name="logout" is-config="true" duration-ms="0" started-at="2017-10-30T02:47:48Z" finished-at="2017-10-30T02:47:48Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout.....]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- anotations.TestNGGroupForRegionalRegression -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
